@@ -1,0 +1,59 @@
+/* Custom Glassmorphism & Modern Effects */
+:root {
+    --primary: #06b6d4;
+    --secondary: #8b5cf6;
+}
+
+body.light {
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+body.light aside {
+    background: #ffffff;
+    border-color: #e2e8f0;
+}
+
+.glass-card {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.kpi-card {
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.kpi-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    border-color: rgba(6, 182, 212, 0.4);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+/* Dynamic Entrance Animations */
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
