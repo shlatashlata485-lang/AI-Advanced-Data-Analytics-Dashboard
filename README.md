@@ -30,7 +30,7 @@ Executive Reports Tab (Smart Insights):
 
 Delivers a strategic written summary of the data health and trends.
 <p align="center">
-  <img src=" c png" width="850">
+  <img src=" c. png" width="850">
 </p>
 
 Includes a Smart AI Bot—an embedded assistant that uses custom logic to answer specific user queries about the data (e.g., "Find the maximum value" or "Summarize the trends").
